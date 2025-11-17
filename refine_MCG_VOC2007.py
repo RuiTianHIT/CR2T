@@ -477,10 +477,7 @@ for index in range(len(proposals["boxes"])):
     proposal_dict["scores"].append(proposal_dict_scores)
     proposal_dict["indexes"].append(proposals["indexes"][index])
     category_list.clear()
-    temp_i = temp_i + 1
-    if temp_i > 5:
-        with open('my_ss_proposal_2007_MCG.pkl', 'wb') as f:
-            pickle.dump(proposal_dict, f)
+
 
 
 with open('VOC2007MCGproposal/voc2007-MCG-trainval.pkl', 'wb') as f:
