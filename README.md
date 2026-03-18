@@ -1,2 +1,2 @@
 # CR2T
-we propose dynamic prompt CLIP for weakly supervised object detection with Region Refine and test time Tuning (termed as CR2T). 
+CR2T: Region-Aware Prompting CLIP for Weakly Supervised Object Detection with Region Refinement and Test Time Tuning. 
