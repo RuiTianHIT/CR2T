@@ -8,3 +8,7 @@ OICR   https://arxiv.org/pdf/1704.00138
 MIST   https://arxiv.org/pdf/2004.04725
 OD-WSCL https://arxiv.org/pdf/2208.07576
 FI-WSOD  https://ieeexplore.ieee.org/document/9854139
+
+1. RAF -----》 filter region proposals
+2. image+refined proposals ----》 WSOD + CCF
+3. CCF with tta tunes parameters
