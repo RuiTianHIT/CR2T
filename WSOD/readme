@@ -1,1 +1,5 @@
-
+For CR2T-OICR, we use SGD optimizer with weight decay 5 × 10−4 and momentum 0.9. The batch size and learning rate are set to 2 and 0.001 for 70k iterations on VOC 2012 datasets following OICR. For CR2T-OD-WSCL, we use SGD optimizer with weight decay 1×10−4 and momentum 0.9. The batch size and learning rate are set to 8 and 0.01 for 30k, 60k and 130k iterations on VOC 2007,
+VOC 2012, COCO 2017 datasets following OD-WSCL. For CR2T-FI-WSOD, we use SGD optimizer with weight decay 5 × 10−4 and momentum 0.9. The batch size and learning rate are
+set to 4 and 0.001 on VOC 2007 and VOC 2012 for 60k and 150k following FI-WSOD. For CR2T-IENet, we use SGD optimizer with weight decay 5×10−4 and momentum 0.9. The batch size and learning rate are set to 1 and 0.001 on VOC 2012 for 150k following IENet. For
+CR2T-WeakSAM, we use SGD optimizer with weight decay 5 ×10−4 and momentum 0.9. The batch size and learning rate are set to 8 and 1 × 10−4 on VOC 2007 and COCO 2017 for 30k
+and 125k iterations following WeakSAM.
